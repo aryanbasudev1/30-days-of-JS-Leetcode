@@ -1,4 +1,5 @@
 var createCounter = function (init) {
+  //solution starts here
   let count = init;
   const obj = {
     increment: function increment() {
@@ -15,9 +16,9 @@ var createCounter = function (init) {
     },
   };
   return obj;
+  //solution ends here
 };
 const counter = createCounter(0);
-console.log(counter);
 console.log(counter.increment()); // 1
 console.log(counter.increment()); // 2
 console.log(counter.decrement()); // 1
