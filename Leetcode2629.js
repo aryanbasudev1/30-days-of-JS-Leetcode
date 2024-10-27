@@ -16,7 +16,7 @@ var compose = function (functions) {
       for (var i = functions.length - 2; i >= 0; i--) {
         result = functions[i](result);
       }
-      return result;
+      return result; //this is the result
     };
   }
 };
